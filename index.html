@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form Validation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+        <h1>SIGN UP HERE</h1>
+
+        <form name="myForm" onsubmit="return validateForm()">
+
+            <div class="content">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="First Name" name="fname">
+            </div>
+            
+            <div class ="content">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Last Name" name="lname">
+            </div>
+
+            <div class="content">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" placeholder="Email Address" name="mail">
+            </div>
+
+            <div class="content">
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" placeholder="password" name="pwd">
+            </div>
+
+            <div class ="content">
+                <label for="Cpwd">Confirm<br>Password:</label>
+                <input type="password" id="Cpwd" placeholder="password" name="Cpwd">
+            </div>
+
+            <div class ="btn">
+                <button type="submit"  >SUBMIT</button>
+            </div>
+
+        </form>   
+    </div>
+        <script src="./form.js"></script>
+    </body>
+</html>
